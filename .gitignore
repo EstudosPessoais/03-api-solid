@@ -8,6 +8,9 @@ node_modules
 #docker
 docker-compose.yml
 
+#Coverage
+coverage
+
 # Build
 build
 
