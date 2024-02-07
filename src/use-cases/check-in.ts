@@ -1,7 +1,4 @@
-import { UsersRepository } from '@/repositories/users-repository'
-import { InvalidCredentialsError } from './errors/invalid-credentials-error'
-import { compare } from 'bcryptjs'
-import { CheckIn, User } from '@prisma/client'
+import { CheckIn } from '@prisma/client'
 import { CheckInsRepository } from '@/repositories/check-ins-repository'
 
 interface CheckInUseCaseRequest {
