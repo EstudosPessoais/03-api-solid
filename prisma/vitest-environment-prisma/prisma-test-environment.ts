@@ -23,7 +23,7 @@ const prismaEnvironment: Environment = {
   transformMode: 'ssr', // ou 'web', dependendo do seu caso
   async setup() {
     const schema = randomUUID()
-    console.log('Random UUID', randomUUID)
+    console.log('Random UUID', schema)
     const databaseURL = generateDabaseUrl(schema)
 
     process.env.DATABASE_URL = databaseURL
